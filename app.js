@@ -46,15 +46,21 @@ store.on("error", () => {
   console.log("ERROR in MONGO SESSION STORE");
 });
 
+// app.use(session({
+//   store,
+//   secret: process.env.SECRET,
+//   resave: false,
+//   saveUninitialized: true,
+//   cookie: {
+//     httpOnly: true,
+//     maxAge: 7 * 24 * 60 * 60 * 1000,
+//   },
+// }));
+
 app.use(session({
-  store,
   secret: process.env.SECRET,
   resave: false,
   saveUninitialized: true,
-  cookie: {
-    httpOnly: true,
-    maxAge: 7 * 24 * 60 * 60 * 1000,
-  },
 }));
 
 app.use(flash());
