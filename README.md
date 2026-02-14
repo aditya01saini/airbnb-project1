@@ -89,6 +89,5 @@ Airbnb-Clone/
 ### 🏘️ Property Page
 ![Property Page](screenshots/property.png)
 
-### 📅 Booking Page
-![Booking Page](screenshots/booking.png)
+
 
