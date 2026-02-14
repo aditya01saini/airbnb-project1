@@ -78,16 +78,4 @@ Airbnb-Clone/
 └── .env # Environment Variables
 
 
-## 📸 Screenshots
-
-### 🏠 Home Page
-![Home Page](screenshots/home.png)
-
-### 🔐 Login Page
-![Login Page](screenshots/login.png)
-
-### 🏘️ Property Page
-![Property Page](screenshots/property.png)
-
-
 
